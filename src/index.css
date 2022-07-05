@@ -1,3 +1,47 @@
 body {
   margin: 0;
 }
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.paramsList_wrapper {
+  margin: 1rem;
+}
+
+li:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newParam_wrapper {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  max-width: 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.38);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.38);
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.38);
+}
+
+.newParam_wrapper > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.newParam_wrapper > input {
+  padding: 0.3rem;
+}
