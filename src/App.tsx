@@ -82,18 +82,21 @@ const EditComponent: React.FC<EditComponentProps> = ({
     <>
       <div className='paramsList_wrapper'>
         <h1>Params list</h1>
-        {!params.length && <span>Nothing here.. Try to add new param</span>}
-        <ul>
-          {params.map((param) => (
-            <ParamRaw
-              param={param}
-              model={model}
-              paramsValue={paramsValue}
-              setParamsValue={setParamsValue}
-              key={param.id}
-            />
-          ))}
-        </ul>
+        {!params.length ? (
+          <span>Nothing here.. Try to add new param</span>
+        ) : (
+          <ul>
+            {params.map((param) => (
+              <ParamRaw
+                param={param}
+                model={model}
+                paramsValue={paramsValue}
+                setParamsValue={setParamsValue}
+                key={param.id}
+              />
+            ))}
+          </ul>
+        )}
       </div>
       <div className='newParam_wrapper'>
         <span>Create new Param</span>
