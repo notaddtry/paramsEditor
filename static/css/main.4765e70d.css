@@ -1,0 +1,2 @@
+body,li,ul{margin:0}li,ul{list-style:none;padding:0}.paramsList_wrapper{margin:1rem}li:not(:first-child){margin-top:.5rem}.container,.newParam_wrapper{align-items:center;display:flex;flex-direction:column}.newParam_wrapper{border-radius:1rem;box-shadow:0 0 40px 0 rgba(34,60,80,.38);justify-content:center;margin:1rem;max-width:15rem;padding:.5rem;width:100%}.newParam_wrapper>:not(:last-child){margin-bottom:.5rem}.newParam_wrapper>input{padding:.3rem}
+/*# sourceMappingURL=main.4765e70d.css.map*/

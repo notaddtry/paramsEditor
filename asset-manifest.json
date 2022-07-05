@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/edit_params/static/css/main.4765e70d.css",
+    "main.js": "/edit_params/static/js/main.0e66f558.js",
+    "index.html": "/edit_params/index.html",
+    "main.4765e70d.css.map": "/edit_params/static/css/main.4765e70d.css.map",
+    "main.0e66f558.js.map": "/edit_params/static/js/main.0e66f558.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4765e70d.css",
+    "static/js/main.0e66f558.js"
+  ]
+}
